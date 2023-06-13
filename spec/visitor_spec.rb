@@ -1,6 +1,8 @@
 require './lib/visitor'
 
 RSpec.describe Visitor do
+    
+    
     describe 'name' do
     it 'returns the name of the visitor' do
       expect(visitor1.name).to eq('Bruce')
